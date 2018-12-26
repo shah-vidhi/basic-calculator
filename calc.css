@@ -1,0 +1,57 @@
+.box{
+	border-radius: 4px;
+	border: #bcc6cc 2px solid;
+	margin:50px 400px 0px 400px;
+	height: 280px;
+	padding-left: 5px; 	
+}
+.mod
+{
+	width: 100px;
+	padding-top: 10px;
+	background: #b6b6b4;
+	border: #b6b6b4 1px solid;
+	font-size: 1em;
+	margin: 10px 10px 0px 229px;
+}
+.textbox{
+	width:440px;
+	height: 30px;
+	font-size: 1em;
+	margin: 20px 10px 0px 10px; 
+}
+.first{
+	width: 100px;
+	padding-top: 10px;
+	margin: 10px 10px 0px 10px;
+	background: #e5e4e2;
+	border: #e5e4e2 1px solid;
+	font-size: 1em;
+}
+.others{
+	width: 100px;
+	padding-top: 10px;
+	margin: 10px 10px 0px 0px;
+	background: #e5e4e2;
+	border: #e5e4e2 1px solid;
+	font-size: 1em;
+}
+.equals{
+	width: 100px;
+	padding-top: 10px;
+	margin: 10px 10px 0px 0px;
+	background: #4863a0;
+	border: #4863a0 1px solid;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1em;
+}
+.fourth
+{
+	width: 100px;
+	padding-top: 10px;
+	margin: 10px 10px 0px 0px;
+	background: #b6b6b4;
+	border: #b6b6b4 1px solid;
+	font-size: 1em;
+}

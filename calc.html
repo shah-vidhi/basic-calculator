@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/home/vidhi/Desktop/html/calc.css" media="all">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script type="text/javascript" src="/home/vidhi/Desktop/html/calc.js"></script>
+	<title></title>
+</head>
+<body>
+	<div class="box">
+		<form name="calculator">
+			<input type="text" name="t1" id="t1" class="textbox">
+			<!-- <input type="textbox" name="t2" id="t2" class="textbox"><br> -->
+			<input type="reset" name="clr" value="CE" class="first">
+			<input type="button" name="modbtn" value="%" class="mod" onclick="myValue(this)"><br>
+			<input type="button" name="btn7" value="7" class="first" onclick="myValue(this)">
+			<input type="button" name="btn8" value="8" class="others" onclick="myValue(this)">
+			<input type="button" name="btn9" value="9" class="others" onclick="myValue(this)">
+			<input type="button" name="divbtn" value="/" class="fourth" onclick="myValue(this)"><br>
+			<input type="button" name="btn4" value="4" class="first" onclick="myValue(this)">
+			<input type="button" name="btn5" value="5" class="others" onclick="myValue(this)">
+			<input type="button" name="btn6" value="6" class="others" onclick="myValue(this)">
+			<input type="button" name="mulbtn" value="*" class="fourth" onclick="myValue(this)"><br>
+			<input type="button" name="btn1" value="1" class="first" onclick="myValue(this)">
+			<input type="button" name="btn2" value="2" class="others" onclick="myValue(this)">
+			<input type="button" name="btn3" value="3" class="others" onclick="myValue(this)">
+			<input type="button" name="subbtn" value="-" class="fourth" onclick="myValue(this)"><br>
+			<input type="button" name="btn0" value="0" class="first" onclick="myValue(this)">
+			<input type="button" name="decbtn" value="." class="others" onclick="myValue(this)">
+			<input type="button" name="equalbtn" value="=" class="equals" onclick="answer()" id="ans" >
+			<input type="button" name="addbtn" value="+" class="fourth" onclick="myValue(this)">
+		</form>	
+	</div>
+</body>
+</html>
